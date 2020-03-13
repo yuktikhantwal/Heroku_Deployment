@@ -18,7 +18,4 @@ DEPLOYING FRONTEND ONLY APP , ON GITHUB ->
 
 DEPLOYING A FRONTEND+BACKEND APP , ON HEROKU ->
 1. create a separate git repository for the project 
-2. run command in terminal - "heroku apps: create <name of app>"
-3. git remote
-4. git push heroku master
-5. heroku logs 
+2. on heroku website, go to 'new app' option and proceed
