@@ -1,0 +1,24 @@
+DEPLOYMENT -> 
+
+Types - frontend, frontend+backend, backend
+
+frontend only - free of cost, need only bandwidth and fixed space, static hosts/html hosting
+
+frontend+backend / backend - paid, CPU + RAM + disk + bandwidth, servers, cloud hosting and vps
+
+types of servers - bare metal setup, infrastructure as a service (IAAS, examples - AWS,GCE,digital ocean), platform as a service (PAAS, examples - heroku)
+
+
+DEPLOYING FRONTEND ONLY APP , ON GITHUB ->
+
+1. create a github repository of your app
+2. go to settings, change the source to master branch
+3. website link will be then provided
+4. for custom domain, domain names can be bought from godaddy, namecheap etc.
+
+DEPLOYING A FRONTEND+BACKEND APP , ON HEROKU ->
+1. create a separate git repository for the project 
+2. run command in terminal - "heroku apps: create <name of app>"
+3. git remote
+4. git push heroku master
+5. heroku logs 
