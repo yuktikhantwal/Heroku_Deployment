@@ -1,3 +1,6 @@
+var sslRootCAs = require('ssl-root-cas/latest')
+sslRootCAs.inject()
+
 const express = require('express')
 const path = require('path')
 
